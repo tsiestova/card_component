@@ -81,6 +81,19 @@ body {
     font-weight: 700;
     font-size: 14px;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-component_btn:before {
+    content: '';
+    background: url(img/icon-cart.svg) no-repeat;
+    height: 16px;
+    width: 15px;
+    display: inline-block;
+    background-size: contain;
 }
 
 .card-component_btn:hover {
@@ -90,7 +103,7 @@ body {
 
 .card-component_text {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 500; 
     font-size: 14px;
     line-height: 23px;
     color: var(--aurometal);
@@ -135,9 +148,7 @@ body {
     display: inline-block;
 }
 
-/*@media (min-width: 1440px) {*/
-
-@media (min-width: 1000px) {
+@media (min-width: 1440px) {
 
     .layout {
         display: flex;
@@ -149,7 +160,6 @@ body {
       width: 600px;
       height: 450px;
       display: flex;
-
   }
 
   .card-component_pic-wrap {
